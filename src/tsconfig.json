@@ -21,7 +21,7 @@
         "noImplicitUseStrict": false,
         "noFallthroughCasesInSwitch": true,
         "plugins": [{
-            "transform": "@nativescript/webpack/dist/transformers/NativeClass",
+            "transform": "@nativescript/webpack/transformers/ns-transform-native-classes",
             "type": "raw"
         }]
     },
